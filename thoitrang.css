@@ -1,0 +1,41 @@
+.im{
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+    float: left;
+}
+.text1{
+  width: 200px;
+  position: relative;
+  left: 170px;
+} 
+.text2{
+    width: 200px;
+    position: relative;
+    bottom: 18px;
+    left: 490px;
+} 
+.text3{
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    left: 790px;
+} 
+.text4{
+    width: 200px;
+    position: relative;
+    bottom: 85px;
+    left: 1085px;
+} 
+.gia{ 
+    color: orangered;
+    float: left;
+    margin-left: 230px;
+    position: relative;
+    bottom: 90px;    
+}
+.sale{
+    position: relative;
+    bottom: 90px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="thoitrang.css">
+</head>
+<body>
+    
+    
+    <script>
+        var Thoitrang=[
+            ob1= {
+                anh:"<img class='im' src='image/leatherbag.jpg'>",
+                name:"<div class='text1'>Túi đựng Laptop BaackPack</div> ",
+                gia:"<d class='gia'>400.000 <ins>đ</ins></d>"
+            },
+            ob2={
+                anh:"<img class='im' src='image/belt.jpg'>",
+                name:"<div class='text2'>Thắt lưng quần jean mặt khóa xỏ kim DJ625-CF</div>",
+                gia:"<d class='gia'> 180.000 <ins>đ</ins> </d>"
+            },
+            ob3={
+                anh:"<img class='im' src='image/wallet.jpg'>",
+                name:"<div class='text3'>Ví nam dạng ngang cổ điển VNTAN-31N</div> ",
+                gia:"<div class='gia'>430.000 <ins>đ</ins></div>"
+            },
+            ob4={
+                anh:"<img class='im' src='image/SHOES.jpg'>",
+                name:"<div class='text4'>Giày tây nam buộc dây vân da GNTA26895-N</div> ",
+                gia:"<div class='gia'>900.000<ins>đ</ins></div><del class='sale'> 1.600.000<ins>đ</ins></del>"
+            }
+        ]
+            for(var i=0;i<Thoitrang.length;i++){
+                
+                    // document.write(Thoitrang[i].anh);
+                    // document.write(Thoitrang[i].name);
+                    // document.write(Thoitrang[i].gia);
+                    // document.write("<div style='clear:both'></div>")
+
+                
+                
+                
+
+                if(i==0){
+                    for(var m=0;m<Thoitrang.length;m++){
+                    document.write(Thoitrang[m].anh);
+                    document.write("<div style='clear:right'></div>")
+                }
+                document.write("<br>")
+                }else if(i==1){
+                    for(var j=0;j<Thoitrang.length;j++){
+                    document.write(Thoitrang[j].name);
+            
+                    
+                }
+                document.write("<br>")
+                }else if(i==2){
+                    for(var n=0;n<Thoitrang.length;n++){
+                    document.write(Thoitrang[n].gia);
+                    document.write("<div style='clear:right'></div>")
+                }
+                document.write("<br>")
+                document.write("<div style='clear:both'></div>")
+            }
+        }
+
+            // for(var i=0;i<3;i++){
+            //     if(i==0){
+            //         for(x in Thoitrang[i]){
+            //         document.write(Thoitrang[i][x]);
+                  
+            //     }}
+            //     if(i==1){
+            //         for(x in Thoitrang[i]){
+            //         document.write(Thoitrang[i][x]);
+             
+            //     }}
+
+            // }
+                
+                // 
+                
+                // }
+                // document.write(Thoitrang[i].anh+"<br>"+Thoitrang[i].name+"<br>"+Thoitrang[i].gia)
+                // document.write(Thoitrang[i].name+"<br>")
+                // document.write(Thoitrang[i].gia)
+                // document.write("<div style='clear:both'></div>")
+            
+      
+           
+            // // var thoitrang1 =Thoitrang.slice(1,3);
+            // for(var i=0;i<thoitrang1.length;i++){
+            //     document.write(thoitrang1[i].anh+"<br>")
+            //     document.write(thoitrang1[i].name+"<br>")
+            //     document.write(thoitrang1[i].gia+"<br>")}
+            
+            
+      
+
+        
+
+    </script>
+</body>
+</html>
